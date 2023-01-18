@@ -8,6 +8,24 @@ you can create product, edit product and delete product.
 you can add order , get specific order , delete order .
 
 
+
+## Installation
+
+Install my-project with npm
+
+```bash
+  npm install my-project
+  cd my-project
+```
+
+Add your mongoDB  and token key  in .env file
+    
+```bash
+URI_DB=Your_database_uri 
+TOKEN_KEY=secret
+```
+
+
 ## API user Reference
 #### you must add user token in headers  in Authorization and the value Bearer user-token to (create product - edit product - delete product - create order - get all order - delete order )
 #### create user
@@ -171,18 +189,4 @@ example: productId and quantity are  **Required**
 
 
 
-## Installation
 
-Install my-project with npm
-
-```bash
-  npm install my-project
-  cd my-project
-```
-
-Add your mongoDB  and token key  in .env file
-    
-```bash
-URI_DB=Your_database_uri 
-TOKEN_KEY=secret
-```
